@@ -13,3 +13,7 @@
 # Eclipse settings directory
 /.settings
 
+/target/
+.classpath
+.project
+.settings/
