@@ -121,25 +121,6 @@
         </configuration>
       </plugin>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>createTestclassesDir</id>
-            <phase>process-resources</phase>
-            <configuration>
-              <tasks>
-                <delete dir="testclasses"/>
-                <mkdir dir="testclasses"/>
-              </tasks>
-            </configuration>
-            <goals>
-              <goal>run</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
     </plugins>
   </build>
 
